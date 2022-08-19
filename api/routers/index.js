@@ -71,7 +71,7 @@ studentRouter.post("/sendemail", async (req, res) => {
     from: "bargadyahmed@gmail.com",
     to: student.email,
     // Subject of Email
-    subject: "Jina ENIME | Email Verification",
+    subject: "Jina EXPRESS JWT API | Email Verification",
     // This would be the text of email body
     text: `Hi! There, thanks for your interest in our services.
            Please follow the given link to verify your email
