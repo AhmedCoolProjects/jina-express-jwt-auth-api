@@ -53,7 +53,7 @@ studentRouter.post("/delete/:id", async (req, res) => {
 });
 // Welcome
 router.get("/", (req, res) => {
-  res.send("Welcome to the JINA ENIME API");
+  res.send("Welcome to the JINA Express JWT Auth API");
 });
 // Send Email Verification
 studentRouter.post("/sendemail", async (req, res) => {
