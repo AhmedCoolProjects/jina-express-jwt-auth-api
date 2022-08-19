@@ -75,7 +75,7 @@ studentRouter.post("/sendemail", async (req, res) => {
     // This would be the text of email body
     text: `Hi! There, thanks for your interest in our services.
            Please follow the given link to verify your email
-           https://jina-enime-backend.vercel.app/api/student/verify/${EMAIL_TOKEN},
+           https://jina-express-jwt-auth-api.vercel.app//api/student/verify/${EMAIL_TOKEN},
 
            This link will expire in 10 minutes.
            Thanks`,

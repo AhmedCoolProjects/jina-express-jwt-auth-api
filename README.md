@@ -43,6 +43,8 @@
 
 `/api/student/profile`
 
+`Authorization: JWT <token>`
+
 ## Email Verification
 
 `/api/student/sendemail`
